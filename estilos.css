@@ -1,0 +1,255 @@
+body{
+    
+    position: relative;
+    height: 1024px;
+    width: 1440px;
+    background: #f3f5fc;
+
+}
+
+/*header*/
+
+.logoAlura{
+
+    position: absolute;
+    border-radius: 0px;
+    
+}
+
+.text1{
+    
+    position: absolute;
+    border-radius: nullpx;
+        
+    border: #F3F5FC;
+    background: transparent;
+    resize: none;
+    outline: none;
+
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align:justify;
+
+    color: #0A3871;
+}
+
+.bi{
+
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    border-radius: 0px;   
+
+}
+
+.texto-bi{
+
+    position:absolute;
+    height: 18px;
+    width: 205px;
+    border-radius: nullpx;
+
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+    color: #495057;
+    opacity: 0.8;
+
+}
+
+.btnEncrip{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+
+    background: #0A3871;
+    border-radius: 24px;
+
+}
+
+.btnDesencrip{
+    
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+}
+
+.fontEncriptar{
+
+    width: 280px;
+    height: 19px;
+        
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+    
+}
+
+.fontDesencriptar{
+
+    width: 280px;
+    height: 19px;
+        
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #0A3871;
+
+}
+
+/*main*/
+
+.rectangle{
+
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px #00000014;
+    border-radius: 32px;   
+}
+
+.mensaje{
+
+       
+    position: absolute;
+               
+    border: #F3F5FC;
+    resize: none;
+    outline: none;
+    
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: justify;
+    color: #495057;
+
+}
+
+.munheco{
+    
+    display:flex;
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 1032px;
+    top: 283px;    
+}
+
+.ningúnMsje{
+
+    display: flex;
+    position: absolute;
+
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #343A40
+
+}
+
+.ingreseMsje{
+    
+    display: flex;
+    position: absolute;
+
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #495057
+}
+
+.btnCopiar{
+    
+    box-sizing: border-box;
+    
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+}
+
+.copiarText{
+
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align:center;
+
+    color: #0A3871;
+    
+}
+
+/*footer*/
+
+.copyright{
+    
+    position: absolute;
+    
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    
+}
+
+.gitHub{
+
+    position:static;
+    width: 16px;
+    height: 16px;
+
+    left: 720px;
+    top: 1000px;
+}
+
+
+

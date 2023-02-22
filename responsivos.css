@@ -1,0 +1,382 @@
+@media (min-width: 375px) {
+
+    .logoAlura{
+
+        height: 48px;
+        width: 60px;
+        left: 5px;
+        top: 30px;
+        
+    }
+
+    .text1{
+    
+
+        height: 350px;
+        width: 332px;
+        left: 25px;
+        top: 130px;
+
+        font-size: 16px;
+                
+    
+    }
+
+    .bi{
+
+        left: 16px;
+        top: 560px; 
+    }
+
+    .texto-bi{
+
+        left: 40px;
+        top: 561px;
+            
+    }
+
+    .btnEncrip{
+
+        width: 332px;
+        height: 67px;
+        left: 16px;
+        top: 590px;   
+    
+    }
+
+    .btnDesencrip{
+    
+        width: 332px;
+        height: 67px;
+        left: 16px;
+        top: 670px;
+    
+    }
+
+    .rectangle{
+
+        width: 327px;
+        height: 186px;
+        left: 24px;
+        top: 770px;        
+    }
+
+    .mensaje{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 32px;
+        
+        width: 280px;
+        height: 595px;
+        left: 16px;
+        top: 980px;
+
+        font-size: 16px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+
+    }
+
+    .munheco{
+
+        display: none;
+    
+    }
+
+    .ningúnMsje{
+
+        width: 300px;
+        height: 156px;
+        left: 35px;
+        top: 800px;
+        
+    }
+
+    .ingreseMsje{
+    
+        width: 250px;
+        height: 156px;
+        left: 60px;
+        top: 866px;
+    }
+
+    .btnCopiar{
+    
+        width: 279px;
+        height: 67px;
+        left: 48px;
+        top: 1540px;
+   
+    }
+
+
+    .copyright{
+    
+        width: 279px;
+        height: 67px;
+        left: 50px;
+        top: 1700px;
+    
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .logoAlura{
+
+        height: 25px;
+        width: 55px;
+        left: 25px;
+        top: 50px;
+                
+        
+    }
+
+    .text1{
+    
+
+        height: 650px;
+        width: 688px;
+        left: 40px;
+        top: 150px;
+
+        font-size: 18px;
+    
+    }
+
+    .bi{
+
+        left: 40px;
+        top: 837px; 
+    }
+
+    .texto-bi{
+
+        left: 60px;
+        top: 836px;
+
+    }
+
+    .btnEncrip{
+
+        width: 332px;
+        height: 67px;
+        left: 40px;
+        top: 870px;   
+    
+    }
+
+    .btnDesencrip{
+    
+        width: 332px;
+        height: 67px;
+        left: 420px;
+        top: 870px;
+    
+    }
+
+    .rectangle{
+
+        width: 720px;
+        height: 133px;
+        left: 40px;
+        top: 1001px;        
+    }
+
+    .mensaje{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 32px;
+
+        width: 655px;
+        height: 300px;
+        left: 40px;
+        top: 1150px;
+
+        font-size: 18px;
+
+        background: #FFFFFF;
+
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+
+
+   
+    }
+
+    .munheco{
+
+        display: none;
+    
+    }
+
+    .ningúnMsje{
+
+        width: 624px;
+        height: 29px;
+        left: 200px;
+        top: 1030px;
+        
+    }
+
+    .ingreseMsje{
+    
+        width: 624px;
+        height: 29px;
+        left: 185px;
+        top: 1080px;
+    }
+
+    .btnCopiar{
+    
+        width: 624px;
+        height: 67px;
+        left: 92px;
+        top: 1400px;
+   
+    }
+
+    .copyright{
+    
+        width: 624px;
+        height: 67px;
+        left: 92px;
+        top: 1650px;
+    
+    }
+    
+}
+
+@media (min-width: 1440px){
+
+    .logoAlura{
+
+        height: 48px;
+        width: 55px;
+        left: 44px;
+        top: 40px;
+
+    }
+
+    .text1{
+    
+
+        height: 650px;
+        width: 577px;
+        left: 240px;
+        top: 168px;
+
+        font-size: 32px;
+    
+    }
+
+    .bi{
+
+        left: 240px;
+        top: 852px; 
+    }
+
+    .texto-bi{
+        
+        left: 264px;
+        top: 851px;       
+            
+    }
+
+    .btnEncrip{
+
+        width: 328px;
+        height: 67px;
+        left: 240px;
+        top: 880px;   
+    
+    }
+
+    .btnDesencrip{
+    
+        width: 328px;
+        height: 67px;
+        left: 592px;
+        top: 880px;
+    
+    }
+
+    .rectangle{
+
+        width: 400px;
+        height: 944px;
+        left: 1000px;
+        top: 40px;        
+    }
+
+    .mensaje{
+        
+        width: 330px;
+        height: 807px;
+        left: 1000px;
+        top: 70px;
+
+        font-size: 22px;
+
+        background: transparent;
+   
+    }
+
+    .munheco{
+
+        display: flex;
+    
+    }
+
+    .ningúnMsje{
+
+        width: 336px;
+        height: 58px;
+        left: 1032px;
+        top: 611px;
+
+    }
+
+    .ingreseMsje{
+    
+        width: 336px;
+        height: 48px;
+        left: 1032px;
+        top: 685px;
+    }
+
+    .btnCopiar{
+    
+        width: 336px;
+        height: 67px;
+        left: 1032px;
+        top: 855px;
+   
+    }
+
+    .copiarText{
+
+        width: 280px;
+        height: 19px;
+       
+    }
+
+    .copyright{
+    
+        width: 440px;
+        height: 48px;
+        left: 500px;
+        top: 1000px;
+    
+    }
+   
+}

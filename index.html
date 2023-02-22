@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="responsivos.css">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="icon" type="Imagenes/Logo.png" href="Imagenes/Logo.png">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital@1&display=swap" rel="stylesheet">
+        <script defer src="function.js"></script>
+        <title>Encriptador</title>        
+
+    </head>
+
+    <body>
+
+        <header>
+            
+            <img src="Imagenes/Logo.png" class="logoAlura">
+            <img src="Imagenes/bi_exclamation-circle-fill.png" class="bi">
+
+            <form>
+
+                <textarea id="textAEncrip" class= "text1" autofocus placeholder="Ingrese el texto aquí"></textarea>
+                <button type="button" id="encriptar" class="btnEncrip" onclick="btnEncriptar()"><p class="fontEncriptar">Encriptar!</p></button>
+                <button type="button" id="desencriptar" class= "btnDesencrip" onclick="btnDesencriptar()"><p class="fontDesencriptar">Desencriptar!</p></button>
+
+            </form>
+
+            <p class="texto-bi">Solo letras minúsculas y sin acentos</p>
+
+        </header>
+
+        <main>
+            
+            <img src="Imagenes/Rectangle 1.png" class="rectangle">
+            <img src="Imagenes/Muñeco.png" id= "munheco1" class="munheco">
+
+            <textarea class="mensaje"></textarea>
+            <button id="copiar" class="btnCopiar" onclick="btnCopiar()"><p class="copiarText">Copiar</p></button>
+
+            <p id="nullMsje" class="ningúnMsje">Ningún mensaje fue encontrado</p>
+            <p id="ingresoMsje" class="ingreseMsje">Ingresa el texto que desees encriptar o desencriptar</p>           
+            
+        </main>
+
+        <footer>
+
+            <p class="copyright"><img src="Imagenes/GitHub.png" class="gitHub"> ArianDCArlo - 2023 |One Oracle Next Educatión + Alura Latam</p>
+
+        </footer>
+
+    </body>
+
+</html>
